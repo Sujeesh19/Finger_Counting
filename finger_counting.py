@@ -50,7 +50,7 @@ def main():
     cap.set(3, wCam)
     cap.set(4, hCam)
 
-    folderpath = "fingers"
+    folderpath = "fingers" # Put the all the 6 photos in fingers folder 
     mylist = os.listdir(folderpath)
     # print(mylist)
 
